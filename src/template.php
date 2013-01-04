@@ -70,6 +70,7 @@
 								<button name="subscribe" class="btn" type="submit" data-loading-text="Submitting...">Subscribe</button>
 							</div>
 							<span class="help-block"><small>*Don't worry - we hate spam too and promise that we'll never send you any garbage emails.</small></span>
+							<!-- <?php echo $num_emails; ?> persons trusted us and subscribed to our mail list -->
 						</form>
 					</div><!-- end #form-wrapper -->
 				</div><!-- end .row -->
