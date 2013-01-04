@@ -35,6 +35,16 @@
 		</script>
 	</head>
 	<body>
+		<div id="fb-root"></div>
+		<script>
+			(function(d, s, id) {
+				var js, fjs = d.getElementsByTagName(s)[0];
+				if (d.getElementById(id)) return;
+				js = d.createElement(s); js.id = id;
+				js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+				fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));
+		</script>
 		<div class="container">
 			<header>
 				<div class="row">
@@ -64,6 +74,33 @@
 					</div><!-- end #form-wrapper -->
 				</div><!-- end .row -->
 			</section>
+			<footer>
+				<div class="row">
+					<div class="span8" style="padding: 10px 0;"><!-- I hate social buttons, but It's important for us -->
+
+						<!-- Start Twitter Button -->
+						<a href="https://twitter.com/WebMakersMe" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @WebMakersMe</a>
+						<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+						<! -- End Twitter Button -->
+
+						<!-- Start Google+ button -->
+						<div class="g-plusone" data-size="medium" data-annotation="inline" data-width="170" data-href="http://webmakers.me"></div>
+						<script type="text/javascript">
+							(function() {
+								var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+								po.src = 'https://apis.google.com/js/plusone.js';
+								var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+							})();
+						</script>
+						<!-- end Google+ button -->
+
+						<!-- Start Facebook button tag -->
+						<div class="fb-like" data-send="false" data-width="350" data-show-faces="false" data-href="https://www.facebook.com/pages/Webmakers/386623541426879"></div>
+						<!-- end Facebook button tag -->
+
+					</div><!-- end .span8.padded10 -->
+				</div><!-- end .row -->
+			</footer>
 		</div><!-- end .container -->
 	</body>
 </html><!-- You can find the source code for this project at https://github.com/WebMakers/coming-soon -->

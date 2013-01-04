@@ -37,3 +37,8 @@ header [class*="span"] {
 .center {
 	text-align: center;
 }
+.fb-like, .twitter-follow-button, .g-plusone {
+	vertical-align: bottom !important;
+	display: inline !important;
+	margin-right: 5px;
+}
