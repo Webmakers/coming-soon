@@ -10,7 +10,6 @@ $gridColumns: 8;
 $gridColumnWidth: $grid-width - ($grid-padding * 2);
 $bodyBackground: $background-color;
 $textColor: $brand-color;
-// $baseFontFamily: 'Voltaire', sans-serif;
 
 @import "bootstrap";
 @import "bootstrap-responsive";

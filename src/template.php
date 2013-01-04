@@ -3,7 +3,7 @@
 	<head>
 		<title>Web Makers</title>
 		<meta charset="utf-8">
-		<meta content="The next BIG resource for web makers in middle east is coming ..." name="description">
+		<meta content="The next BIG resource for web makers in the middle east is coming ..." name="description">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" media="all" href="src/css/style.css" />
 		<link rel="author" href="humans.txt" />
@@ -26,7 +26,7 @@
 			_gaq.push(['_setAllowLinker', true]);
 			_gaq.push(['_trackPageview']);
 			<?php if( $email_inserted ): ?>_gaq.push(["_trackEvent", "Coming-Soon", "email-inserted"]);<?php endif; // End if $email_inserted ?>
-			
+
 			(function() {
 				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
 				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
@@ -39,7 +39,7 @@
 			<header>
 				<div class="row">
 					<h1 class="span8">WebMakers.me</h1>
-					<p class="span8">The next BIG resource for web makers in middle east is coming ...</p>
+					<p class="span8">The next BIG resource for web makers in the middle east is coming ...</p>
 				</div><!--end .row-->
 			</header>
 			<section>
