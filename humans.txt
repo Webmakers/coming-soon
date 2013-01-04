@@ -1,0 +1,14 @@
+/* TEAM */
+	One-man Show: Khaled Attia
+	Contact: khaled \at\ webmakers /Dot/ me
+	Site: khal3d.com
+	Twitter: @Khal3d
+	Location: Alexandria, Egypt
+
+/* SITE */
+	Last update: 2013/01/04 
+	Standards: HTML5, CSS3
+	Components: jQuery, Sass, Compass, sass-bootstrap
+	Software: Sublime Text 2, Notepad++, Color Cop, GitHub, Photoshop
+	Language: English
+	Contact: humanstxt \at\ webmakers /Dot/ me

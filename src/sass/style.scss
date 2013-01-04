@@ -1,0 +1,40 @@
+@import "compass";
+
+$brand-color: #217788;
+$background-color: #EFEFEF;
+$grid-width: 70px;
+$grid-padding: 10px;
+
+// Bootstrap Vars
+$gridColumns: 8;
+$gridColumnWidth: $grid-width - ($grid-padding * 2);
+$bodyBackground: $background-color;
+$textColor: $brand-color;
+// $baseFontFamily: 'Voltaire', sans-serif;
+
+@import "bootstrap";
+@import "bootstrap-responsive";
+
+[class*="span"] {
+	padding: $grid-padding;
+}
+
+body {
+	background-image: url('../img/bg.png');
+	background-repeat: repeat-x;
+}
+header {
+	color: #fff;
+	margin-top: 25px;
+}
+header [class*="span"] {
+	padding: 0px $grid-padding;
+}
+#form-wrapper {
+	background-color: #fff;
+	min-height: 200px;
+	@include single-box-shadow(#ddd, 0px, 1px, 2px);
+}
+.center {
+	text-align: center;
+}
